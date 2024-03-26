@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'presentation/screens/screens_travel.dart';
+import 'presentation/screens/onboarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,6 +17,6 @@ class MyApp extends StatelessWidget {
               seedColor: const Color.fromRGBO(0, 100, 2010, 1)),
           useMaterial3: true,
         ),
-        home: const ScreenTravel());
+        home: const OnborardingScreen());
   }
 }
