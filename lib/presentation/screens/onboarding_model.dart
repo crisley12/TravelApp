@@ -1,4 +1,4 @@
-import 'package:open_app/presentation/utils/svg_format.dart';
+import 'package:open_app/config/constants/svg_format.dart';
 
 class OnboardingModel {
   String image;
@@ -9,12 +9,9 @@ class OnboardingModel {
 
 List<OnboardingModel> contents = [
   OnboardingModel(
-      image: SvgImages.getImagePath(imageName: SvgImages.image1),
-      title: 'Explore\nThe Beautiful\nWorld!'),
+      image: SvgImages.girlVector, title: 'Explore\nThe Beautiful\nWorld!'),
   OnboardingModel(
-      image: SvgImages.getImagePath(imageName: SvgImages.image2),
-      title: 'Find\nYour Perfect\nTickets To Fly'),
+      image: SvgImages.maskVector, title: 'Find\nYour Perfect\nTickets To Fly'),
   OnboardingModel(
-      image: SvgImages.getImagePath(imageName: SvgImages.image3),
-      title: 'Book\nAppointment\nin Easiest Way!'),
+      image: SvgImages.maskVector, title: 'Book\nAppointment\nin Easiest Way!'),
 ];
